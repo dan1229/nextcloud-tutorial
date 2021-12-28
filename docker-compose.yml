@@ -1,0 +1,21 @@
+
+version: "3"
+
+services:
+  nextcloud:
+    image: nextcloud:latest
+    restart: unless-stopped
+    ports:
+      - 80:80
+    env_file:
+      - db.env
+    volumes:
+      - nextcloud:/var/www/html
+
+  mysql:
+      image: mysql:8.0
+      restart: unless-stopped
+      env_file:
+        - db.env
+      volumes:
+        - mysql:/var/lib/mysql
