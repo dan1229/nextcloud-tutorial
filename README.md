@@ -1,4 +1,4 @@
-# nextcloud-tutorial
+# NextCloud Tutorial
 #### By: [Daniel Nazarian](https://danielnazarian) 🐧
 ##### Contact me at <dnaz@danielnazarian.com>
 
@@ -8,6 +8,10 @@ This repo is meant to house the series of tutorials related to my blog posts abo
 
 ### test-setup
 This directory contains the test NextCloud/Docker setup for local testing and trying out the platform.
+
+
+### production
+This directory contains the production ready config.
 
 -------------------------------------------------------
 
