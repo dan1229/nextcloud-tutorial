@@ -4,6 +4,9 @@
 
 -------------------------------------------------------
 
+[Post - NextCloud Production](https://danielnazarian.com/#/blog/3f15532e-d964-4802-b12b-57ee5cf59068)
+
+
 To get running, clone the repo and create a copy of `db.env.example` and name it `db.env`. Then fill out the environment variables/config in this new file.
 
 ### How to run
